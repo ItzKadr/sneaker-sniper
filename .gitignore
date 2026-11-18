@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Generated data & outputs
+data/
+artifacts/
+mlruns/
+mlflow.db
+*.faiss
+*.npy
+
+# Model weights / checkpoints
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Tooling / OS
+.streamlit/secrets.toml
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# Personal study notes (kept local, not published)
+TUTORIAL_RU.md
